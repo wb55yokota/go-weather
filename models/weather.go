@@ -1,5 +1,7 @@
 package models
 
+// HACK: structごとにファイルを切り分けるか、package=structs,filename=structs.goにした方が良いかも
+
 type Weather struct {
 	PinpointLocations []PinpointLocation `json:"pinpointLocations"`
 	Forecasts         []Forecast         `json:"forecasts"`
