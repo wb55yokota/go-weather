@@ -1,6 +1,6 @@
 # go-weather
 
-golangでlivedoorのAPIを叩いて結果を取得する処理を書いてみるテスト
+golangでlivedoorのお天気APIを叩いて結果を取得する処理を書いてみるテスト
 
 ### 要素
 - HTTP Clientで外部APIをキック
